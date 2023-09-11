@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@rollup/plugin-node-resolve':
     specifier: ^15.2.1
-    version: 15.2.1(rollup@3.28.1)
+    version: 15.2.1(rollup@3.29.1)
   prettier:
     specifier: ^3.0.2
     version: 3.0.2
@@ -18,14 +18,14 @@ devDependencies:
     specifier: ^3.0.3
     version: 3.0.3(prettier@3.0.2)(svelte@4.2.0)
   rollup:
-    specifier: ^3.28.1
-    version: 3.28.1
+    specifier: ^3.29.1
+    version: 3.29.1
   rollup-plugin-css-only:
     specifier: ^4.3.0
-    version: 4.3.0(rollup@3.28.1)
+    version: 4.3.0(rollup@3.29.1)
   rollup-plugin-svelte:
     specifier: ^7.1.6
-    version: 7.1.6(rollup@3.28.1)(svelte@4.2.0)
+    version: 7.1.6(rollup@3.29.1)(svelte@4.2.0)
   svelte:
     specifier: ^4.2.0
     version: 4.2.0
@@ -34,7 +34,7 @@ devDependencies:
     version: 3.5.0(svelte@4.2.0)
   svelte-listener:
     specifier: github:RedHatter/svelte-listener
-    version: github.com/RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
+    version: git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -100,7 +100,7 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@rollup/plugin-node-resolve@15.2.1(rollup@3.28.1):
+  /@rollup/plugin-node-resolve@15.2.1(rollup@3.29.1):
     resolution: {integrity: sha512-nsbUg588+GDSu8/NS8T4UAshO6xeaOfINNuXeVHcKV02LJtoRaM1SiOacClw4kws1SFiNhdLGxlbMY9ga/zs/w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -109,13 +109,13 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.4(rollup@3.28.1)
+      '@rollup/pluginutils': 5.0.4(rollup@3.29.1)
       '@types/resolve': 1.20.2
       deepmerge: 4.3.1
       is-builtin-module: 3.2.1
       is-module: 1.0.0
       resolve: 1.22.4
-      rollup: 3.28.1
+      rollup: 3.29.1
     dev: true
 
   /@rollup/pluginutils@4.2.1:
@@ -126,7 +126,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils@5.0.4(rollup@3.28.1):
+  /@rollup/pluginutils@5.0.4(rollup@3.29.1):
     resolution: {integrity: sha512-0KJnIoRI8A+a1dqOYLxH8vBf8bphDmty5QvIm2hqm7oFCFYKCAZWWd2hXgMibaPsNDhI0AtpYfQZJG47pt/k4g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -138,7 +138,7 @@ packages:
       '@types/estree': 1.0.1
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.28.1
+      rollup: 3.29.1
     dev: true
 
   /@types/estree@1.0.1:
@@ -589,17 +589,17 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-css-only@4.3.0(rollup@3.28.1):
+  /rollup-plugin-css-only@4.3.0(rollup@3.29.1):
     resolution: {integrity: sha512-BsiCqJJQzZh2lQiHY5irejRoJ3I1EUFHEi5PjVqsr+EmOh54YrWVwd3YZEXnQJ2+fzlhif0YM/Kf0GuH90GAdQ==}
     engines: {node: '>=14'}
     peerDependencies:
       rollup: <4
     dependencies:
-      '@rollup/pluginutils': 5.0.4(rollup@3.28.1)
-      rollup: 3.28.1
+      '@rollup/pluginutils': 5.0.4(rollup@3.29.1)
+      rollup: 3.29.1
     dev: true
 
-  /rollup-plugin-svelte@7.1.6(rollup@3.28.1)(svelte@4.2.0):
+  /rollup-plugin-svelte@7.1.6(rollup@3.29.1)(svelte@4.2.0):
     resolution: {integrity: sha512-nVFRBpGWI2qUY1OcSiEEA/kjCY2+vAjO9BI8SzA7NRrh2GTunLd6w2EYmnMt/atgdg8GvcNjLsmZmbQs/u4SQA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -608,12 +608,12 @@ packages:
     dependencies:
       '@rollup/pluginutils': 4.2.1
       resolve.exports: 2.0.2
-      rollup: 3.28.1
+      rollup: 3.29.1
       svelte: 4.2.0
     dev: true
 
-  /rollup@3.28.1:
-    resolution: {integrity: sha512-R9OMQmIHJm9znrU3m3cpE8uhN0fGdXiawME7aZIpQqvpS/85+Vt1Hq1/yVIcYfOmaQiHjvXkQAoJukvLpau6Yw==}
+  /rollup@3.29.1:
+    resolution: {integrity: sha512-c+ebvQz0VIH4KhhCpDsI+Bik0eT8ZFEVZEYw0cGMVqIP8zc+gnwl7iXCamTw7vzv2MeuZFZfdx5JJIq+ehzDlg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -779,8 +779,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  github.com/RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82:
-    resolution: {tarball: https://codeload.github.com/RedHatter/svelte-listener/tar.gz/54b89f3f02697623bd2d162159400cec3fb67e82}
+  git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82:
+    resolution: {commit: 54b89f3f02697623bd2d162159400cec3fb67e82, repo: git@github.com:RedHatter/svelte-listener.git, type: git}
     name: svelte-listener
     version: 0.0.1
     dev: true
