@@ -5,6 +5,7 @@
 	import ProfileButton from './toolbar/ProfileButton.svelte';
 	import PickerButton from './toolbar/PickerButton.svelte';
 	import VisibilityButton from './toolbar/VisibilityButton.svelte';
+	
 	import ComponentView from './panel/ComponentView.svelte';
 	import Profiler from './profiler/Profiler.svelte';
 	import Breadcrumbs from './Breadcrumbs.svelte';

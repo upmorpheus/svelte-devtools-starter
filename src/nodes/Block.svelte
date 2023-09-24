@@ -33,7 +33,7 @@
 </div>
 {#if !collapsed}
 	<slot />
-	<div class="tag-close tag-name" class:hover {style}>
+	<div class="tag-close tag-name last" class:hover {style}>
 		&lbrace;/
 		<SearchTerm text={tagName} />
 		&rbrace;
