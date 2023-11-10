@@ -16,7 +16,7 @@ devDependencies:
     version: 0.1.1(prettier@3.0.2)
   prettier-plugin-svelte:
     specifier: ^3.0.3
-    version: 3.0.3(prettier@3.0.2)(svelte@4.2.0)
+    version: 3.0.3(prettier@3.0.2)(svelte@4.2.3)
   rollup:
     specifier: ^3.28.1
     version: 3.28.1
@@ -25,16 +25,16 @@ devDependencies:
     version: 4.3.0(rollup@3.28.1)
   rollup-plugin-svelte:
     specifier: ^7.1.6
-    version: 7.1.6(rollup@3.28.1)(svelte@4.2.0)
+    version: 7.1.6(rollup@3.28.1)(svelte@4.2.3)
   svelte:
-    specifier: ^4.2.0
-    version: 4.2.0
+    specifier: ^4.2.3
+    version: 4.2.3
   svelte-check:
     specifier: ^3.5.0
-    version: 3.5.0(svelte@4.2.0)
+    version: 3.5.0(svelte@4.2.3)
   svelte-listener:
     specifier: github:RedHatter/svelte-listener
-    version: github.com/RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
+    version: git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -428,8 +428,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /magic-string@0.30.3:
-    resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
+  /magic-string@0.30.5:
+    resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -531,14 +531,14 @@ packages:
       prettier: 3.0.2
     dev: true
 
-  /prettier-plugin-svelte@3.0.3(prettier@3.0.2)(svelte@4.2.0):
+  /prettier-plugin-svelte@3.0.3(prettier@3.0.2)(svelte@4.2.3):
     resolution: {integrity: sha512-dLhieh4obJEK1hnZ6koxF+tMUrZbV5YGvRpf2+OADyanjya5j0z1Llo8iGwiHmFWZVG/hLEw/AJD5chXd9r3XA==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0
     dependencies:
       prettier: 3.0.2
-      svelte: 4.2.0
+      svelte: 4.2.3
     dev: true
 
   /prettier@3.0.2:
@@ -599,7 +599,7 @@ packages:
       rollup: 3.28.1
     dev: true
 
-  /rollup-plugin-svelte@7.1.6(rollup@3.28.1)(svelte@4.2.0):
+  /rollup-plugin-svelte@7.1.6(rollup@3.28.1)(svelte@4.2.3):
     resolution: {integrity: sha512-nVFRBpGWI2qUY1OcSiEEA/kjCY2+vAjO9BI8SzA7NRrh2GTunLd6w2EYmnMt/atgdg8GvcNjLsmZmbQs/u4SQA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -609,7 +609,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       resolve.exports: 2.0.2
       rollup: 3.28.1
-      svelte: 4.2.0
+      svelte: 4.2.3
     dev: true
 
   /rollup@3.28.1:
@@ -669,7 +669,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.5.0(svelte@4.2.0):
+  /svelte-check@3.5.0(svelte@4.2.3):
     resolution: {integrity: sha512-KHujbn4k17xKYLmtCwv0sKKM7uiHTYcQvXnvrCcNU6a7hcszh99zFTIoiu/Sp/ewAw5aJmillJ1Cs8gKLmcX4A==}
     hasBin: true
     peerDependencies:
@@ -681,8 +681,8 @@ packages:
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      svelte: 4.2.0
-      svelte-preprocess: 5.0.4(svelte@4.2.0)(typescript@5.2.2)
+      svelte: 4.2.3
+      svelte-preprocess: 5.0.4(svelte@4.2.3)(typescript@5.2.2)
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -696,7 +696,7 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-preprocess@5.0.4(svelte@4.2.0)(typescript@5.2.2):
+  /svelte-preprocess@5.0.4(svelte@4.2.3)(typescript@5.2.2):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -739,12 +739,12 @@ packages:
       magic-string: 0.27.0
       sorcery: 0.11.0
       strip-indent: 3.0.0
-      svelte: 4.2.0
+      svelte: 4.2.3
       typescript: 5.2.2
     dev: true
 
-  /svelte@4.2.0:
-    resolution: {integrity: sha512-kVsdPjDbLrv74SmLSUzAsBGquMs4MPgWGkGLpH+PjOYnFOziAvENVzgJmyOCV2gntxE32aNm8/sqNKD6LbIpeQ==}
+  /svelte@4.2.3:
+    resolution: {integrity: sha512-sqmG9KC6uUc7fb3ZuWoxXvqk6MI9Uu4ABA1M0fYDgTlFYu1k02xp96u6U9+yJZiVm84m9zge7rrA/BNZdFpOKw==}
     engines: {node: '>=16'}
     dependencies:
       '@ampproject/remapping': 2.2.1
@@ -758,7 +758,7 @@ packages:
       estree-walker: 3.0.3
       is-reference: 3.0.1
       locate-character: 3.0.0
-      magic-string: 0.30.3
+      magic-string: 0.30.5
       periscopic: 3.1.0
     dev: true
 
@@ -779,8 +779,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  github.com/RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82:
-    resolution: {tarball: https://codeload.github.com/RedHatter/svelte-listener/tar.gz/54b89f3f02697623bd2d162159400cec3fb67e82}
+  git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82:
+    resolution: {commit: 54b89f3f02697623bd2d162159400cec3fb67e82, repo: git@github.com:RedHatter/svelte-listener.git, type: git}
     name: svelte-listener
     version: 0.0.1
     dev: true
