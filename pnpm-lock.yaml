@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^0.1.1
     version: 0.1.1(prettier@3.0.2)
   prettier-plugin-svelte:
-    specifier: ^3.0.3
-    version: 3.0.3(prettier@3.0.2)(svelte@4.2.0)
+    specifier: ^3.1.0
+    version: 3.1.0(prettier@3.0.2)(svelte@4.2.0)
   rollup:
     specifier: ^3.28.1
     version: 3.28.1
@@ -34,7 +34,7 @@ devDependencies:
     version: 3.5.0(svelte@4.2.0)
   svelte-listener:
     specifier: github:RedHatter/svelte-listener
-    version: github.com/RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
+    version: git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -531,11 +531,11 @@ packages:
       prettier: 3.0.2
     dev: true
 
-  /prettier-plugin-svelte@3.0.3(prettier@3.0.2)(svelte@4.2.0):
-    resolution: {integrity: sha512-dLhieh4obJEK1hnZ6koxF+tMUrZbV5YGvRpf2+OADyanjya5j0z1Llo8iGwiHmFWZVG/hLEw/AJD5chXd9r3XA==}
+  /prettier-plugin-svelte@3.1.0(prettier@3.0.2)(svelte@4.2.0):
+    resolution: {integrity: sha512-96+AZxs2ESqIFA9j+o+DHqY+BsUglezfl553LQd6VOtTyJq5GPuBEb3ElxF2cerFzKlYKttlH/VcVmRNj5oc3A==}
     peerDependencies:
       prettier: ^3.0.0
-      svelte: ^3.2.0 || ^4.0.0-next.0
+      svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
     dependencies:
       prettier: 3.0.2
       svelte: 4.2.0
@@ -779,8 +779,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  github.com/RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82:
-    resolution: {tarball: https://codeload.github.com/RedHatter/svelte-listener/tar.gz/54b89f3f02697623bd2d162159400cec3fb67e82}
+  git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82:
+    resolution: {commit: 54b89f3f02697623bd2d162159400cec3fb67e82, repo: git@github.com:RedHatter/svelte-listener.git, type: git}
     name: svelte-listener
     version: 0.0.1
     dev: true
