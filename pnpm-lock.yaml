@@ -16,7 +16,7 @@ devDependencies:
     version: 0.1.1(prettier@3.1.0)
   prettier-plugin-svelte:
     specifier: ^3.1.2
-    version: 3.1.2(prettier@3.1.0)(svelte@4.2.0)
+    version: 3.1.2(prettier@3.1.0)(svelte@4.2.12)
   rollup:
     specifier: ^3.28.1
     version: 3.28.1
@@ -25,13 +25,13 @@ devDependencies:
     version: 4.5.2(rollup@3.28.1)
   rollup-plugin-svelte:
     specifier: ^7.1.6
-    version: 7.1.6(rollup@3.28.1)(svelte@4.2.0)
+    version: 7.1.6(rollup@3.28.1)(svelte@4.2.12)
   svelte:
-    specifier: ^4.2.0
-    version: 4.2.0
+    specifier: ^4.2.12
+    version: 4.2.12
   svelte-check:
     specifier: ^3.6.2
-    version: 3.6.2(svelte@4.2.0)
+    version: 3.6.2(svelte@4.2.12)
   svelte-listener:
     specifier: github:RedHatter/svelte-listener
     version: git/github.com+RedHatter/svelte-listener/54b89f3f02697623bd2d162159400cec3fb67e82
@@ -173,8 +173,8 @@ packages:
       dequal: 2.0.3
     dev: true
 
-  /axobject-query@3.2.1:
-    resolution: {integrity: sha512-jsyHu61e6N4Vbz/v18DHwWYKK0bSWLqn47eeDSKPB7m8tqMHF9YJ+mhIk2lVteyZrY8tnSj/jHOv4YiTCuCJgg==}
+  /axobject-query@4.0.0:
+    resolution: {integrity: sha512-+60uv1hiVFhHZeO+Lz0RYzsVHy5Wr1ayX0mwda9KPDVLNJgZ1T9Ny7VmFbLDzxsH0D87I86vgj3gFrjTJUYznw==}
     dependencies:
       dequal: 2.0.3
     dev: true
@@ -428,8 +428,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /magic-string@0.30.3:
-    resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
+  /magic-string@0.30.7:
+    resolution: {integrity: sha512-8vBuFF/I/+OSLRmdf2wwFCJCz+nSn0m6DPvGH1fS/KiQoSaR+sETbov0eIk9KhEKy8CYqIkIAnbohxT/4H0kuA==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -531,14 +531,14 @@ packages:
       prettier: 3.1.0
     dev: true
 
-  /prettier-plugin-svelte@3.1.2(prettier@3.1.0)(svelte@4.2.0):
+  /prettier-plugin-svelte@3.1.2(prettier@3.1.0)(svelte@4.2.12):
     resolution: {integrity: sha512-7xfMZtwgAWHMT0iZc8jN4o65zgbAQ3+O32V6W7pXrqNvKnHnkoyQCGCbKeUyXKZLbYE0YhFRnamfxfkEGxm8qA==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
     dependencies:
       prettier: 3.1.0
-      svelte: 4.2.0
+      svelte: 4.2.12
     dev: true
 
   /prettier@3.1.0:
@@ -599,7 +599,7 @@ packages:
       rollup: 3.28.1
     dev: true
 
-  /rollup-plugin-svelte@7.1.6(rollup@3.28.1)(svelte@4.2.0):
+  /rollup-plugin-svelte@7.1.6(rollup@3.28.1)(svelte@4.2.12):
     resolution: {integrity: sha512-nVFRBpGWI2qUY1OcSiEEA/kjCY2+vAjO9BI8SzA7NRrh2GTunLd6w2EYmnMt/atgdg8GvcNjLsmZmbQs/u4SQA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -609,7 +609,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       resolve.exports: 2.0.2
       rollup: 3.28.1
-      svelte: 4.2.0
+      svelte: 4.2.12
     dev: true
 
   /rollup@3.28.1:
@@ -669,7 +669,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.6.2(svelte@4.2.0):
+  /svelte-check@3.6.2(svelte@4.2.12):
     resolution: {integrity: sha512-E6iFh4aUCGJLRz6QZXH3gcN/VFfkzwtruWSRmlKrLWQTiO6VzLsivR6q02WYLGNAGecV3EocqZuCDrC2uttZ0g==}
     hasBin: true
     peerDependencies:
@@ -681,8 +681,8 @@ packages:
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      svelte: 4.2.0
-      svelte-preprocess: 5.1.1(svelte@4.2.0)(typescript@5.3.2)
+      svelte: 4.2.12
+      svelte-preprocess: 5.1.1(svelte@4.2.12)(typescript@5.3.2)
       typescript: 5.3.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -696,7 +696,7 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-preprocess@5.1.1(svelte@4.2.0)(typescript@5.3.2):
+  /svelte-preprocess@5.1.1(svelte@4.2.12)(typescript@5.3.2):
     resolution: {integrity: sha512-p/Dp4hmrBW5mrCCq29lEMFpIJT2FZsRlouxEc5qpbOmXRbaFs7clLs8oKPwD3xCFyZfv1bIhvOzpQkhMEVQdMw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -739,26 +739,27 @@ packages:
       magic-string: 0.27.0
       sorcery: 0.11.0
       strip-indent: 3.0.0
-      svelte: 4.2.0
+      svelte: 4.2.12
       typescript: 5.3.2
     dev: true
 
-  /svelte@4.2.0:
-    resolution: {integrity: sha512-kVsdPjDbLrv74SmLSUzAsBGquMs4MPgWGkGLpH+PjOYnFOziAvENVzgJmyOCV2gntxE32aNm8/sqNKD6LbIpeQ==}
+  /svelte@4.2.12:
+    resolution: {integrity: sha512-d8+wsh5TfPwqVzbm4/HCXC783/KPHV60NvwitJnyTA5lWn1elhXMNWhXGCJ7PwPa8qFUnyJNIyuIRt2mT0WMug==}
     engines: {node: '>=16'}
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
       '@jridgewell/trace-mapping': 0.3.19
+      '@types/estree': 1.0.1
       acorn: 8.10.0
       aria-query: 5.3.0
-      axobject-query: 3.2.1
+      axobject-query: 4.0.0
       code-red: 1.0.4
       css-tree: 2.3.1
       estree-walker: 3.0.3
       is-reference: 3.0.1
       locate-character: 3.0.0
-      magic-string: 0.30.3
+      magic-string: 0.30.7
       periscopic: 3.1.0
     dev: true
 
